@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter - Kontakt</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Papyrus', 'Cursive', Georgia, serif;
+            color: #E0E0E0;
+            background-color: #0a0a0f;
+            position: relative;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body class="bg-dark text-light" class="kontakt">
+
+<div class="stars"></div>
+<div class="stars2"></div>
+<div class="stars3"></div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black shadow position-relative">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Harry Potter</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Strona główna</a></li>
+        <li class="nav-item">
+            <a class="nav-link" href="o_filmie.html">O filmie</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="postacie.html">Postacie</a></li>
+        <li class="nav-item"><a class="nav-link active" href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container py-5 position-relative">
+    <h1 class="text-warning text-center mb-4">Kontakt z Magicznym Światem</h1>
+    <p class="text-center mb-5">Masz pytania? Wyślij sowę wiadomość! 🦉✨</p>
+
+    <form class="p-4 bg-black bg-opacity-75 rounded shadow-lg">
+        <div class="mb-3">
+            <label class="form-label">Imię</label>
+            <input type="text" class="form-control" placeholder="Twoje imię">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Twoj email">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Wiadomość</label>
+            <textarea class="form-control" rows="4" placeholder="Twoja magiczna wiadomość..."></textarea>
+        </div>
+
+        <button class="btn btn-warning w-100">Wyślij wiadomość ✉️</button>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
